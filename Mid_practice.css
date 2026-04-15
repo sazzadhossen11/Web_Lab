@@ -1,0 +1,180 @@
+.sidebar {
+    height: 100%;
+    width: 220px;
+    background-color: darkblue;
+    color: aliceblue;
+    float: left;
+}
+
+.h-3 {
+    height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, darkblue, rgb(14, 151, 210), darkblue);
+    padding-top: 10px;
+}
+
+.a-group {
+    padding-top: 20px;
+    padding-bottom: 49px;
+}
+
+.a-group a {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background-color: #44689ea9;
+    border-left: 4px solid white;
+}
+
+.main-section {
+    height: 100%;
+    background-color: rgba(196, 193, 193, 0.422);
+}
+
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.nav-sec input {
+    width: 20%;
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+.first-line-of-card {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.card-upper-1 {
+    background: linear-gradient(to right, orange, rgb(147, 219, 11));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.card-upper-2 {
+    background: linear-gradient(to right, red, orange);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.card-upper-3 {
+    background: linear-gradient(to right, olive, rgb(129, 15, 223));
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    height: 100%;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-body{
+    padding: 15px 20px;
+}
+
+.progress{
+    height: 6px;
+    width: 100%;
+    background-color: rgb(222, 221, 221);
+    border-radius: 10px;
+}
+
+.progress-bar-1{
+    height: 6px;
+    width: 75%;
+    background: linear-gradient(to right,rgb(2, 111, 31),rgb(60, 195, 92));
+    border-radius: 10px;
+}
+.progress-bar-2{
+    height: 6px;
+    width: 45%;
+    background: linear-gradient(to right,rgb(235, 138, 214),rgb(187, 8, 143));
+    border-radius: 10px;
+}
+.progress-bar-3{
+    height: 6px;
+    width: 90%;
+    background: linear-gradient(to right,rgb(134, 106, 193),rgb(68, 11, 193));
+    border-radius: 10px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding: 0 20px 20px;
+}
+
+.notice-board{
+    display: flex;
+    padding:20px;
+}
+
+.notice-bar{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.notice-card{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+
+.notice-card-1,
+.notice-card-2,
+.notice-card-3{
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.notice-card-1{
+    background:radial-gradient(ellipse at 50% 50%,
+    rgb(255, 255, 255)0%,
+    rgb(255, 38, 0))100%;
+}
+
+.notice-card-2{
+       background: radial-gradient(
+        ellipse at 50% 50%,   /* controls position + shape */
+        rgb(203, 179, 41) 0%,   /* yellow center */
+        rgb(46, 46, 204) 100%    /* dark blue edge */
+    );
+}
+.notice-card-3{
+    background:radial-gradient(ellipse at 50% 50%,
+    rgb(224, 131, 64)0%,
+    rgb(6, 207, 197))100%;
+}
+
+.sp{
+    background-color: rgba(240, 235, 235, 0.297);
+    border-radius: 10px;
+    padding: 1px 8px;
+}
+
